@@ -2,7 +2,7 @@ $(function(){
 	var $activeSlide = $('#slides .slide:first-child');
 
 	//show first slide
-	$activeSlide.addClass("showing");
+	//$activeSlide.addClass("showing");
 
 	//console.log(slides);
 
