@@ -1,4 +1,4 @@
-class BrowseController < ApplicationController
+ class BrowseController < ApplicationController
 
 	#outputs users but not the current one
 	def browse
@@ -7,6 +7,11 @@ class BrowseController < ApplicationController
 
 	def approve
 		#user swipes right
+		logger.debug "User id for matching is #{params[:id]}"
+
+		#create like for user
+		
+
 	end
 
 	def decline
